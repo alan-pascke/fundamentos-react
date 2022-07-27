@@ -1,10 +1,12 @@
 /* eslint-disable import/no-anonymous-default-export */
 import React from "react";
 
-export default (min, max) =>{
+export default props => {
+    const randomNum = parseInt(Math.random() * (props.max - props.min) + props.min)
     return (
         <div>
-            <p>{Math.random() * (min - max) + min}</p>
+            <h3>Random number</h3>
+            <p>{randomNum}</p>
             
         </div>
     )

@@ -10,7 +10,13 @@ export default props =>{
 
     return (
         <div style={styles}>
-            {cloneElement(props.children, { ...props})}
+            {
+                props.children.map((child, i) => {
+                    console.log(child)
+                    return cloneElement (child, { ...props, key: i});
+                    
+                })
+            }
         </div>
     )
 };

@@ -8,6 +8,7 @@ import Card from "./components/layouts/Card";
 import Family from "./components/basics/Family";
 import FamilyMember from "./components/basics/FamilyMember";
 import StudendsList from "./components/loops/StudendsList";
+import ProductsTab from "./components/loops/ProductsTab";
 
 
 export default () =>{
@@ -15,9 +16,11 @@ export default () =>{
         <div className='App'>
             <h1>Fundamentos React</h1>
             <div className="Cards">
-                <Card title='#05 - Loops' color='#AE1'>
+                <Card title='#06 - Loop Challenge' color='#CAF'>
+                    <ProductsTab></ProductsTab>
+                </Card>
+                <Card title='#05 - Loops' color='#BCA'>
                     <StudendsList></StudendsList>
-
                 </Card>
                 <Card title='#04 - Components whith childrens' color='#EA1'>
                     <Family lastname='Ferreira'>

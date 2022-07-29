@@ -8,7 +8,7 @@ export default (props) =>{
         backgroundColor:props.color || '#222',
         borderColor: props.color || '#222',
     }
- 
+
     return (
         <div className='Card' style={cardStyle}>
             <div className="Title">{props.title}</div>

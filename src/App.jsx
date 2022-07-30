@@ -10,6 +10,7 @@ import FamilyMember from "./components/basics/FamilyMember";
 import StudendsList from "./components/loops/StudendsList";
 import ProductsTab from "./components/loops/ProductsTab";
 import EvenOrOdd from "./components/conditional/EvenOrOdd";
+import UserInfo from "./components/conditional/UserInfo";
 
 
 export default () =>{
@@ -19,6 +20,8 @@ export default () =>{
             <div className="Cards">
                 <Card title='#07 - Even or Odd' color='#333'>
                     <EvenOrOdd number={20}></EvenOrOdd>
+                    <UserInfo user={{ name:'Fernando'}}></UserInfo>
+                    <UserInfo></UserInfo>
                 </Card>
                 <Card title='#06 - Loop Challenge' color='#CAF'>
                     <ProductsTab></ProductsTab>

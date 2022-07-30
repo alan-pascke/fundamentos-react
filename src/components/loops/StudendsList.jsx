@@ -2,7 +2,7 @@
 import React from "react";
 import students from "../../data/students";
 
-export default props => {
+export default () => {
 
     const styles = {
         listStyle: 'none',
@@ -10,7 +10,7 @@ export default props => {
 
     const list = students.map(student =>{
         return (
-            <li>
+            <li key={student.id}>
                 {student.id} - {student.name} - nota: {student.nota}
             </li>
         )

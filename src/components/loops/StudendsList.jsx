@@ -11,7 +11,7 @@ export default () => {
     const list = students.map(student =>{
         return (
             <li key={student.id}>
-                {student.id} - {student.name} - nota: {student.nota}
+                {student.id} - {student.name} - note: {student.note}
             </li>
         )
     })

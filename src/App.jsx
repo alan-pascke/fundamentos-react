@@ -13,12 +13,16 @@ import EvenOrOdd from "./components/conditional/EvenOrOdd";
 import UserInfo from "./components/conditional/UserInfo";
 import Direct from "./components/communication/Direct";
 import Undirect from "./components/communication/Undirect";
+import Input from "./components/form/Input";
 
 export default () =>{
     return (
         <div className='App'>
             <h1>Fundamentos React</h1>
             <div className="Cards">
+                <Card title='#10 - Controlled Component' color='#07CAD8'>
+                    <Input></Input>
+                </Card>
                 <Card title='#09 Undirectional Communication' color='#E3433A'>
                 <p>Passando atributos do filho para o pai</p>
                 <hr/>

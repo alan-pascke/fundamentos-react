@@ -14,12 +14,20 @@ import UserInfo from "./components/conditional/UserInfo";
 import Direct from "./components/communication/Direct";
 import Undirect from "./components/communication/Undirect";
 import Input from "./components/form/Input";
+import Counter from "./components/counter/Counter";
+import MegaSena from "./components/megasena/MegaSena";
 
 export default () =>{
     return (
         <div className='App'>
             <h1>Fundamentos React</h1>
             <div className="Cards">
+                <Card title='#12 - Mega sena Challange' color='green'>
+                    <MegaSena></MegaSena>
+                </Card>
+                <Card title='#11 - Counter' color='#EFD727'>
+                    <Counter initialNumber={15} ></Counter>
+                </Card>
                 <Card title='#10 - Controlled Component' color='#07CAD8'>
                     <Input></Input>
                 </Card>

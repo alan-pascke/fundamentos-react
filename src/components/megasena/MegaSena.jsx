@@ -1,14 +1,28 @@
 /* eslint-disable import/no-anonymous-default-export */
-import React from "react";
+import React  from "react";
+// import NumbersGenerate from "./NumbersGenerate";
 
-export default () =>{
+export default (props) =>{
+
+    const qtd = props.megaNumbers
+    let list = []
+
+    
+
+    for (let i = 0; i < qtd; i++) {
+        list[i] = parseInt(Math.floor(Math.random() * (qtd - 1) + 1 ));
+    }
+
+    for (let i = 0; i < list.length; i++) {
+        const element = list[i];
+        
+    }
+    
+    list.sort( (a, b) =>  a - b)
+
     return(
         <div>
-            <p>Insert a number</p>
-            <input type="text" />
-            <div>
-                <button>Generate</button>
-            </div>
+            {console.log(list)}
         </div>
     )
-}
+} 

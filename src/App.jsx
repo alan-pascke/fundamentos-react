@@ -23,7 +23,7 @@ export default () =>{
             <h1>Fundamentos React</h1>
             <div className="Cards">
                 <Card title='#12 - Mega sena Challange' color='green'>
-                    <MegaSena></MegaSena>
+                    <MegaSena megaNumbers={''}></MegaSena>
                 </Card>
                 <Card title='#11 - Counter' color='#EFD727'>
                     <Counter initialNumber={15} ></Counter>

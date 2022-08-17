@@ -18,7 +18,7 @@ export default porps => {
             }}>
                 <input type="text" value={value} onChange={whenChange}/>
                 <input type="text" value={'read only'} readOnly />
-                <input type="text" value={undefined + ''} />
+                {/* <input type="text" value={undefined + ''} /> */}
             </div>
         </div>
     )

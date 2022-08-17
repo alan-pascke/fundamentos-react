@@ -1,0 +1,44 @@
+.Mega label{
+    margin-right: 10px;
+}
+
+.Mega input{
+    font-size: 1.1rem;
+    width: 50px;
+}
+
+.Mega button{
+    margin-top: 15px;
+}
+
+.Mega .nums{
+    margin-bottom: 10px;
+}
+
+.Mega .styless{
+    background-color: rgb(154, 163, 163);
+    border-radius: 100px;
+    display: inline-block;
+    align-self: center;
+    width: 35px;
+    margin: 5px;
+    padding: 8px 0;
+    font-weight: bold;
+    
+}
+
+.Mega .button{
+    font-weight: bold;
+    background-color: #959393;
+    color: #ffffff;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    border-style: none;
+    padding: 10px 7px;
+    box-shadow: 2px 2px 4px gray;
+}
+
+.Mega .button:hover{
+    color: #323232;
+    box-shadow: 2px 2px 4px rgb(170, 168, 168);
+}
